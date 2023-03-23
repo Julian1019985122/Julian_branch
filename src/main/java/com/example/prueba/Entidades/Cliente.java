@@ -2,7 +2,7 @@ package com.example.prueba.Entidades;
 
 import java.time.LocalDate;
 
-public class Usuario {
+public class Cliente {
 
     private int id;
     private String nombre;
@@ -11,7 +11,7 @@ public class Usuario {
     private String correo;
 
 
-    public Usuario(int id, String nombre, String pais, LocalDate fecha, String correo) {
+    public Cliente(int id, String nombre, String pais, LocalDate fecha, String correo) {
         this.id = id;
         this.nombre = nombre;
         this.pais = pais;

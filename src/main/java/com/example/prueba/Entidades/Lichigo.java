@@ -2,7 +2,7 @@ package com.example.prueba.Entidades;
 
 
 
-public class Productos {
+public class Lichigo {
 
     private int codigo;
     private String nombre;
@@ -12,7 +12,7 @@ public class Productos {
     private String categoria;
 
 
-    public Productos(int codigo, String nombre, double precio, int cantidad, double total, String categoria) {
+    public Lichigo(int codigo, String nombre, double precio, int cantidad, double total, String categoria) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.precio = precio;
