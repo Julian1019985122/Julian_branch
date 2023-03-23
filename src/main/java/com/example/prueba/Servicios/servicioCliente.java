@@ -20,12 +20,12 @@ public class servicioCliente {
         return lista;
     }
 
-    public String agregarUsuario(Cliente usu){
+    public String agregarCliente(Cliente usu){
         lista.add(usu);
         return "Registro extoso";
     }
 
-    public Cliente buscarUsuario(int codigo){
+    public Cliente buscarCliente(int codigo){
      Cliente usu=null;
      for(Cliente u: lista){
          if (u.getId() == codigo){

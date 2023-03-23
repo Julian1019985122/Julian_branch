@@ -15,17 +15,17 @@ public class controladorCliente {
     servicioCliente servicio=new servicioCliente();
 
 
-    @GetMapping("/Listarusuario")
+    @GetMapping("/Listarcliente")
     public ArrayList<Cliente> listar(){
         return servicio.listar();
     }
 
-    @PostMapping("/agregarusuario")
-    public String agregar(@RequestBody Cliente cliente) {return  servicio.agregarUsuario(cliente);}
+    @PostMapping("/agregarcliente")
+    public String agregar(@RequestBody Cliente cliente) {return  servicio.agregarCliente(cliente);}
 
-    @GetMapping("buscarUsuario/{cod}")
+    @GetMapping("buscarcliente/{cod}")
     public Cliente buscarCliente(@PathVariable("cod") int codigo){
-        return servicio.buscarUsuario(codigo);
+        return servicio.buscarCliente(  codigo);
     }
 
 }
