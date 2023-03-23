@@ -1,6 +1,5 @@
 package com.example.prueba.Controlador;
 
-import com.example.*;
 import com.example.prueba.Entidades.Lichigo;
 import com.example.prueba.Servicios.servicioLichigo;
 import org.springframework.web.bind.annotation.GetMapping;
