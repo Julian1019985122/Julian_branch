@@ -20,7 +20,7 @@ public class controladorCliente {
         return servicio.listar();
     }
 
-    @PostMapping("/agregarcliente")
+    @PostMapping("/agregarCliente")
     public String agregar(@RequestBody Cliente cliente) {return  servicio.agregarCliente(cliente);}
 
     @GetMapping("buscarcliente/{cod}")
