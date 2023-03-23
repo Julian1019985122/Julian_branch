@@ -6,17 +6,16 @@ public class Cliente {
 
     private int id;
     private String nombre;
-    private String pais;
-    private LocalDate fecha;
-    private String correo;
+    private String Barrio;
+    private int Casa;
+    private int Celular;
 
-
-    public Cliente(int id, String nombre, String pais, LocalDate fecha, String correo) {
+    public Cliente(int id, String nombre, String barrio, int casa, int celular) {
         this.id = id;
         this.nombre = nombre;
-        this.pais = pais;
-        this.fecha = fecha;
-        this.correo = correo;
+        Barrio = barrio;
+        Casa = casa;
+        Celular = celular;
     }
 
     public int getId() {
@@ -35,27 +34,27 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    public String getPais() {
-        return pais;
+    public String getBarrio() {
+        return Barrio;
     }
 
-    public void setPais(String pais) {
-        this.pais = pais;
+    public void setBarrio(String barrio) {
+        Barrio = barrio;
     }
 
-    public LocalDate getFecha() {
-        return fecha;
+    public int getCasa() {
+        return Casa;
     }
 
-    public void setFecha(LocalDate fecha) {
-        this.fecha = fecha;
+    public void setCasa(int casa) {
+        Casa = casa;
     }
 
-    public String getCorreo() {
-        return correo;
+    public int getCelular() {
+        return Celular;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public void setCelular(int celular) {
+        Celular = celular;
     }
 }

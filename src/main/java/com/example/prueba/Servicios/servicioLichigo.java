@@ -1,5 +1,8 @@
 package com.example.prueba.Servicios;
 
+import com.example.prueba.Entidades.Cliente;
+import com.example.prueba.Entidades.Lichigo;
+
 import java.util.ArrayList;
 
 public class servicioLichigo {
@@ -16,7 +19,7 @@ public class servicioLichigo {
     }
 
 
-    public ArrayList<com.example.prueba.Entidades.Lichigo> mostrar() {
+    public ArrayList<Lichigo> mostrar() {
         return lista;
     }
 
@@ -24,7 +27,7 @@ public class servicioLichigo {
         return lista.size();
     }
 
-    public ArrayList<com.example.prueba.Entidades.Lichigo> actualizartotal() {
+    public ArrayList<Lichigo> actualizartotal() {
         for (com.example.prueba.Entidades.Lichigo productos : lista) {
             productos.setTotal(productos.getCantidad() * productos.getPrecio());
         }
@@ -34,7 +37,7 @@ public class servicioLichigo {
     }
 
 
-    public ArrayList<com.example.prueba.Entidades.Lichigo> total(){
+    public ArrayList<Lichigo> total(){
         for(com.example.prueba.Entidades.Lichigo productos:lista){
             productos.setTotal(+productos.getTotal());
         }

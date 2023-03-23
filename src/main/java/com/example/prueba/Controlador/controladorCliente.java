@@ -1,9 +1,9 @@
 package com.example.prueba.Controlador;
 
 import com.example.prueba.Entidades.Cliente;
+import com.example.prueba.Entidades.Lichigo;
 import com.example.prueba.Servicios.servicioCliente;
 import org.springframework.web.bind.annotation.*;
-import com.example.*;
 
 import java.util.ArrayList;
 

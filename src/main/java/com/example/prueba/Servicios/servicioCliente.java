@@ -11,9 +11,9 @@ public class servicioCliente {
 
     public servicioCliente()
     {
-        lista.add(new Cliente(10,"Luisa", "Alemania", LocalDate.of(2023,2,28),"luisa@gmil.com"));
-        lista.add(new Cliente(11,"Julian", "Colombia", LocalDate.of(2022,3,10),"julian@gmil.com"));
-        lista.add(new Cliente(12,"Julio", "Peru", LocalDate.of(2020,4,7),"julio@gmil.com"));
+        lista.add(new Cliente(10,"Luisa", "Sosiego",5014,156165));
+        lista.add(new Cliente(11,"Julian", "San Carlos", 3021,245654));
+        lista.add(new Cliente(12,"Julio", "San jose", 2020,3116161));
     }
 
     public ArrayList<Cliente> listar(){
